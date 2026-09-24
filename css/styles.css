@@ -67,7 +67,7 @@ img {
 
 h1, h2, h3 {
     font-family: var(--font-serif);
-    line-height: var(--leadingh-heading);
+    line-height: var(--leading-heading);
 }
 /* ==========================
    3. BASE ELEMENT STYLES
@@ -79,7 +79,7 @@ body {
     font-size: var(--text-base);
     line-height: var(--leading-body);
 
-
+}
 h1 { font-size: var(--text-h1); line-height: var(--leading-heading); }
 h2 { font-size: var(--text-h2); line-height: var(--leading-heading); }
 h3 { font-size: var(--text-h3); line-height: var(--leading-heading); }
@@ -90,9 +90,9 @@ p:last-child { margin-bottom: 0; }
 
 a { color: var(--color-accent); }
 
-font-family: var(--font-stack)
-/*...existing lab 05 decleration...*/
-}
+
+
+
 
 a:focus-visible {
     outline: 2px solid var(--color-accent);

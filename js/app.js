@@ -29,3 +29,22 @@ let placeName = 'Starbucks';
 let rating = 5;
 console.log(placeName + ' - ' + rating + '/5');
 console.log('⭐'.repeat(rating) + ' ' + placeName);
+
+
+// (9/21)
+function greetFavorite(placeName, rating) {
+    console.log(placeName + ' has ' + rating + ' stars!');
+}
+greetFavorite('Starbucks', 5);   // "Starbucks has 5 stars!"
+
+const nameInput = document.getElementById('name');
+console.log(nameInput.value);   //what the user typed
+
+const practiceForm = document.getElementById('add-favorite-form')
+
+function handleSubmit(event){
+    event.preventDefault();
+    console.log('You typed:' + nameInput.value);
+}
+
+practiceForm.addEventListener('submit', handleSubmit);
