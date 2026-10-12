@@ -135,6 +135,9 @@ textarea {
     width: 100%;
     font: inherit;
     margin-bottom: var(--space-md);
+    padding: var(--space-sm);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
 }
 
 
@@ -168,13 +171,23 @@ textarea {
 
 
 /* BUTTONS */
-.btn-danger {
-    background-color: var(--color-danger);
-    color: var(--color-surface);
-    /* Optional: makes it look clickable. LAB15 adds a shared button rule. */
-    padding: var(--space-sm) var(--space-md);
+
+button {
+    font: inherit;
+    padding: var(--space-sm) var(--space-lg);
     border: none;
     border-radius: var(--radius-md);
-    font: inherit;
     cursor: pointer;
+}
+
+
+
+.btn-primary {
+    background-color: var(--color-accent);
+    color: var(--color-surface);
+}
+
+
+.btn-primary:hover {
+    background-color: var(--color-accent-strong);
 }
